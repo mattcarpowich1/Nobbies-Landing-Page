@@ -192,7 +192,7 @@ p.testimonial-text {
   line-height: var(--spaced-line-height);
   color: var(--black);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
 }
 
@@ -223,6 +223,7 @@ div.address {
 
 div.address address {
   font-weight: 300;
+  line-height: var(--line-height);
 }
 
 div.address p:nth-child(1) {
@@ -365,7 +366,7 @@ h1 {
   }
 
   p.testimonial-text {
-    font-size: 19px;
+    font-size: 20px;
   }
 
   div.addresses {
