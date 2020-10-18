@@ -56,6 +56,7 @@ header {
 header img {
   height: 64px;
   width: auto;
+  transform: translateX(-5px);
   /* display: inline-block;
   position: absolute;
   top: 6px;
