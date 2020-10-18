@@ -13,10 +13,10 @@
   --border-radius: 4px;
 }
 
-* {
+/* * {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-}
+} */
 
 html, body {
   background-color:var(--black);
@@ -25,10 +25,10 @@ html, body {
 section.main {
   width: 100vw;
   min-height: 0;
-  background-image: url('./images/background.jpg');
+  /* background-image: url('./images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center; */
 }
 
 header {
@@ -74,6 +74,13 @@ header button:hover {
 section.main main {
   box-sizing: border-box;
   padding: var(--padding-small);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), url('./images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 section h2 {
@@ -83,27 +90,30 @@ section h2 {
   text-align: center;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
+  font-family: var(--font1);
+  margin-bottom: 32px;
 }
 
 section.main h2, section.testimonials h2 {
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, .5);
 }
 
 section.mission-statement {
   padding: var(--padding-small);
-  color: var(--black);
-  font-family: var(--font1);
-  font-weight: 300;
-  background-color: white;
 }
 
-section.mission-statement p {
+section.main p {
   width: var(--width);
   max-width: var(--max-width);
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
   line-height: var(--line-height);
+  font-family: var(--font1);
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, .5);
 }
 
 section.testimonials {
@@ -283,6 +293,10 @@ h1 {
     min-height: 0px;
   }
 
+  section.main main {
+    padding: 96px 0px;
+  }
+
   section h2 {
     font-size: 56px;
   }
@@ -311,6 +325,10 @@ h1 {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+  }
+
+  section.main main {
+    padding: 128px 0px;
   }
 
   div.testimonials-outer {
