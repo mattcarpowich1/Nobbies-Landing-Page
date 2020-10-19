@@ -108,7 +108,8 @@ section h2 {
 }
 
 section.main h2, section.testimonials h2 {
-  text-shadow: 1px 1px 8px rgba(0, 0, 0, .5);
+  /* text-shadow: 1px 1px 8px rgba(0, 0, 0, .5); */
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .5);
 }
 
 section.mission-statement {
@@ -126,7 +127,8 @@ section.main p {
   font-weight: 400;
   color: white;
   text-align: center;
-  text-shadow: 1px 1px 8px rgba(0, 0, 0, .5);
+  /* text-shadow: 1px 1px 8px rgba(0, 0, 0, .5); */
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, .5);
 }
 
 section.testimonials {
