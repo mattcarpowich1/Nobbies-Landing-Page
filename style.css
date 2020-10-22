@@ -125,7 +125,6 @@ section.main p {
   font-weight: 400;
   color: white;
   text-align: center;
-  /* text-shadow: 1px 1px 8px rgba(0, 0, 0, .5); */
   text-shadow: 1px 1px 0px rgba(0, 0, 0, .5);
 }
 
@@ -171,7 +170,6 @@ div.testimonial-img-outer {
   align-items: center;
   overflow: hidden;
   margin-right: 16px;
-  /* background-color: red; */
   background: rgb(232,95,95);
   background: linear-gradient(0deg, rgba(232,95,95,1) 25%, rgba(230,60,60,1) 75%);
 }
@@ -194,7 +192,7 @@ div.testimonial-top-right p {
 p.testimonial-text {
   line-height: var(--spaced-line-height);
   color: white;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
 }
 
