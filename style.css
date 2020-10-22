@@ -10,8 +10,8 @@
   --lighter-blue: #5f99f5;
   --line-height: 1.2em;
   --spaced-line-height: 1.4em;
-  --padding-small: 32px 0px;
-  --padding-medium: 48px 0px;
+  --padding-small: 24px 0px 28px 0px;
+  --padding-medium: 32px 0px 48px 0px;
   --border-radius: 4px;
 }
 
@@ -104,6 +104,10 @@ section h2 {
   -webkit-font-smoothing: antialiased;
   font-family: var(--font1);
   margin-bottom: 24px;
+}
+
+section.main main h2 {
+  margin-top: -8px;
 }
 
 section.main h2, section.testimonials h2 {
@@ -268,6 +272,10 @@ h1 {
     font-size: 48px;
   }
 
+  section.main main h2 {
+    margin-top: -12px;
+  }
+
   section.main p {
     font-size: 23px;
   }
@@ -293,6 +301,12 @@ h1 {
   }
 }
 
+@media screen and (min-width: 400px) {
+  section.main main h2 {
+    margin-top: -24px;
+  }
+}
+
 @media screen and (min-width: 640px) {
   header img {
     left: calc(5vw - 4px);
@@ -308,6 +322,10 @@ h1 {
 
   section h2 {
     font-size: 56px;
+  }
+
+  section.main main h2 {
+    margin-top: -96px;
   }
 
   div.main-top {
@@ -338,7 +356,7 @@ h1 {
   }
 
   section.main main h2 {
-    margin-top: -40px;
+    margin-top: -96px;
   }
 
   div.contact-inner {
